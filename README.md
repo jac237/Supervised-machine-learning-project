@@ -8,20 +8,20 @@ The following data sets were taken from the UCI Machine Learning Repository (htt
 
 * **Bank Note Authentication**
 
-    * [bank-note-auth.ipynb](./bank-note-auth.ipynb)
-    * [bank-note-authentication.csv](./bank-note-authentication.csv)
+    * Jupyter Notebook: [bank-note-auth.ipynb](./bank-note-auth.ipynb)
+    * Data: [bank-note-authentication.csv](./bank-note-authentication.csv)
     
 
 * **Wheat Seeds** 
 
-    * [wheat-seeds.ipynb](./wheat-seeds.ipynb)
-    * [seeds.csv](./seeds.csv)
+    * Jupyter Notebook: [wheat-seeds.ipynb](./wheat-seeds.ipynb)
+    * Data: [seeds.csv](./seeds.csv)
     
 
 * **Skin Segmentation** 
 
-    * [skin-segmentation.ipynb](./skin-segmentation.ipynb)
-    * [Skin_NonSkin.csv](./Skin_NonSkin.csv)
+    * Jupyter Notebook: [skin-segmentation.ipynb](./skin-segmentation.ipynb)
+    * Data: [Skin_NonSkin.csv](./Skin_NonSkin.csv)
 
 ## Final Project Report
 
