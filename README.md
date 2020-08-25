@@ -2,6 +2,27 @@
 
 *Course*: COGS 118A - Supervised Machine Learning Algorithms (Winter 2020)
 
+## Data Sets
+
+The following data sets were taken from the UCI Machine Learning Repository (http://archive.ics.uci.edu/ml):
+
+* **Bank Note Authentication**
+
+    * [bank-note-auth.ipynb](./bank-note-auth.ipynb)
+    * [bank-note-authentication.csv][./bank-note-authentication.csv]
+    
+
+* **Wheat Seeds** 
+
+    * [wheat-seeds.ipynb](./wheat-seeds.ipynb)
+    * [seeds.csv](./seeds.csv)
+    
+
+* **Skin Segmentation** 
+
+    * [skin-segmentation.ipynb](./skin-segmentation.ipynb)
+    * [Skin_NonSkin.csv](./Skin_NonSkin.csv)
+
 ## Final Project Report
 
 > Write a report with >1,000 words (excluding references) including main sections: a) Abstract, b) Introduction, c) Methods, d) Experiments, e) Conclusions, and f) References. The basic requirement for the final project is based on the two-class classification problem. 
@@ -9,24 +30,6 @@
 > Train your classifiers using the setting (not all metrics are needed) described in the empirical study by Caruana and Niculescu-Mizil. You are supposed to reproduce consistent results as in the paper. However, do expect some small variations. When evaluating the algorithms, you don’t need to use all the metrics that were reported in the paper. Using one metric, e.g. the classification accuracy, is sufficient. Please report the cross-validated classification results with the corresponding learned hyper-parameters.
 
 > If you compute accuracy and follow the basic requirement picking 3 classifiers and 3 datasets. You are looking at 3 trials/repeats X 3 classifiers X 3 datasets X 3 partitions (20/80, 50/50, 80/20). Each time you always report the best accuracy under the chosen hyper-parameter. Since for the accuracy is averaged among three 3 trials/repeats to rank order the classifiers, you will report 3 classifiers X 3 datasets X 3 partitions  (20/80, 50/50, 80/20)  X 3. accuracies (train, validation, test). When trying to debug, always try to see the training accuracy to see if you are able to at least push the training accuracy high (to overfit the data) as a sanity check making sure your implementation is correct. The heatmaps for your hyper-parameters are the details that do not need to be too carefully compared with. The searching for the hyper-parameters is internal and the final conclusion about the classifiers is based on the best hyper-parameter you have obtained for each time.
-
-## Data Sets
-
-The following data sets were taken from the UCI Machine Learning Repository (http://archive.ics.uci.edu/ml):
-
-* **Bank Note Authentication** [*bank-note-authentication.csv*]
-
-    * [bank-note-auth.ipynb](./bank-note-auth.ipynb)
-    
-
-* **Wheat Seeds** [*seeds.csv*]
-
-    * [wheat-seeds.ipynb](./wheat-seeds.ipynb)
-    
-
-* **Skin Segmentation** [*Skin_NonSkin.csv*]
-
-    * [skin-segmentation.ipynb](./skin-segmentation.ipynb)
 
 ## Pseudo code
     For i in three different datasets
