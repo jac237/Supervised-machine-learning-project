@@ -50,15 +50,15 @@ The following data sets were taken from the UCI Machine Learning Repository (htt
 
 * Linear SVM with `scikit-learn`
 
-    <img src='./images/bank-note-img1.png' alt="Linear SVM img" height="200" />
+    <img src='./images/bank-note-img1.png' alt="Linear SVM img" height="300" />
 
 * KNN with `scikit-learn`
 
-    <img src='./images/bank-note-img2.png' alt="KNN img" height="200" />
+    <img src='./images/bank-note-img2.png' alt="KNN img" height="300" />
 
 * Decision Tree with `scikit-learn`
 
-    <img src='./images/bank-note-img3.png' alt="Decision Tree img" height="200" />    
+    <img src='./images/bank-note-img3.png' alt="Decision Tree img" height="300" />    
 
 ## Useful Resources
 
