@@ -10,8 +10,25 @@
 
 > If you compute accuracy and follow the basic requirement picking 3 classifiers and 3 datasets. You are looking at 3 trials/repeats X 3 classifiers X 3 datasets X 3 partitions (20/80, 50/50, 80/20). Each time you always report the best accuracy under the chosen hyper-parameter. Since for the accuracy is averaged among three 3 trials/repeats to rank order the classifiers, you will report 3 classifiers X 3 datasets X 3 partitions  (20/80, 50/50, 80/20)  X 3. accuracies (train, validation, test). When trying to debug, always try to see the training accuracy to see if you are able to at least push the training accuracy high (to overfit the data) as a sanity check making sure your implementation is correct. The heatmaps for your hyper-parameters are the details that do not need to be too carefully compared with. The searching for the hyper-parameters is internal and the final conclusion about the classifiers is based on the best hyper-parameter you have obtained for each time.
 
-Pseudo code:
+## Data Sets
 
+The following data sets were taken from the UCI Machine Learning Repository (http://archive.ics.uci.edu/ml):
+
+* **Bank Note Authentication** [*bank-note-authentication.csv*]
+
+    * [bank-note-auth.ipynb](./bank-note-auth.ipynb)
+    
+
+* **Wheat Seeds** [*seeds.csv*]
+
+    * [wheat-seeds.ipynb](./wheat-seeds.ipynb)
+    
+
+* **Skin Segmentation** [*Skin_NonSkin.csv*]
+
+    * [skin-segmentation.ipynb](./skin-segmentation.ipynb)
+
+## Pseudo code
     For i in three different datasets
         For j in three types of different partitions
              For t in three different trials/repeats (shuffling or performing random splits for each type j (20/80,80/20) )
@@ -38,28 +55,7 @@ Pseudo code:
 
 * Decision Tree with `scikit-learn`
 
-    <img src='./images/bank-note-img3.png' alt="Decision Tree img" height="200" />
-
-
-## Data Sets
-
-The following data sets were taken from the UCI Machine Learning Repository (http://archive.ics.uci.edu/ml):
-
-* **Bank Note Authentication** [*bank-note-authentication.csv*]
-
-    * [bank-note-auth.ipynb](./bank-note-auth.ipynb)
-    
-
-* **Wheat Seeds** [*seeds.csv*]
-
-    * [wheat-seeds.ipynb](./wheat-seeds.ipynb)
-    
-
-* **Skin Segmentation** [*Skin_NonSkin.csv*]
-
-    * [skin-segmentation.ipynb](./skin-segmentation.ipynb)
-    
-    
+    <img src='./images/bank-note-img3.png' alt="Decision Tree img" height="200" />    
 
 ## Useful Resources
 
