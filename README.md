@@ -58,7 +58,17 @@ The following data sets were taken from the UCI Machine Learning Repository (htt
 
 * Decision Tree with `scikit-learn`
 
-    <img src='./images/bank-note-img3.png' alt="Decision Tree img" height="300" />    
+    <img src='./images/bank-note-img3.png' alt="Decision Tree img" height="300" /> 
+    
+## Methodology
+
+This section summarizes the parameters used for each learning algorithm.
+
+* **SVM**: I used the following kernel with SciKit Learn: linear. The regularization parameters used were: 0.1, 1, 10, 100, 1000.
+
+* **K-NN**: Uses KNeighborsClassifier from sklearn to create a grid searcher with 5-fold cross-validation with up to 3 neighbors. The KNN uses the Euclidean distance as weights.
+
+* **Decision Tree**: Uses DecisionTreeClassifier from sklearn and GridSearchCV with 10-fold cross-validation with a max-depth of 5. 
 
 ## Useful Resources
 
